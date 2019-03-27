@@ -18,5 +18,9 @@ export class QuestionsComponent implements OnInit {
     console.log(this.discussion.value);
   }
 
+  onReply() {
+    console.log(this.discussion.value);
+  }
+
   ngOnInit() {}
 }
